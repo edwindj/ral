@@ -1,0 +1,41 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+library(ral)
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# ral
+
+Data package containing RAL classic colors.
+
+## Example
+
+`ral` is a `data.frame` that contains RAL number, color, name, german name and a description.
+```{r}
+head(ral)
+```
+
+`ral_colors` is a named vector that can be used to quickly retrieve a color from the RAL number.
+
+e.g.
+
+```{r}
+ral_colors["RAL9010"]
+```
+
+##  Install
+
+Currently `ral` is not available from CRAN and can be installed with the following:
+
+```R
+devtools::install_github("edwindj/ral")
+```
