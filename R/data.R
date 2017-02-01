@@ -13,7 +13,7 @@
 #' @source \url{https://en.wikipedia.org/wiki/List_of_RAL_colors}
 "ral"
 
-#' RAL color vector index by RAL<number>
+#' RAL color vector indexed by RAL<number>
 #'
 #' @format A vector with 213 colors
 #' @source \url{https://en.wikipedia.org/wiki/List_of_RAL_colors}

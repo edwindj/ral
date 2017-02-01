@@ -1,5 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/ral)](https://cran.r-project.org/package=ral) [![Travis-CI Build Status](https://travis-ci.org/edwindj/ral.svg?branch=master)](https://travis-ci.org/edwindj/ral)
+
 ral
 ===
 
@@ -23,12 +25,16 @@ head(ral)
 
 `ral_colors` is a named vector that can be used to quickly retrieve a color from the RAL number.
 
-e.g.
-
 ``` r
 ral_colors["RAL9010"]
 #>   RAL9010 
 #> "#F7F9EF"
+```
+
+Function `show_ralcolors` shows the color table with corresponding RAL number.
+
+``` r
+show_ralcolors()
 ```
 
 ![](README-color%20table-1.png)

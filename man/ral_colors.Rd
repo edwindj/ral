@@ -3,7 +3,7 @@
 \docType{data}
 \name{ral_colors}
 \alias{ral_colors}
-\title{RAL color vector index by RAL<number>}
+\title{RAL color vector indexed by RAL<number>}
 \format{A vector with 213 colors}
 \source{
 \url{https://en.wikipedia.org/wiki/List_of_RAL_colors}
@@ -12,7 +12,7 @@
 ral_colors
 }
 \description{
-RAL color vector index by RAL<number>
+RAL color vector indexed by RAL<number>
 }
 \keyword{datasets}
 
