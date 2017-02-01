@@ -3,3 +3,7 @@
 language: R
 sudo: false
 cache: packages
+
+env:
+ global:
+   - CRAN: http://cran.rstudio.com
