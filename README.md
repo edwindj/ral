@@ -3,7 +3,7 @@
 ral
 ===
 
-Data package containing RAL classic colors.
+Data package containing [RAL classic colors](https://en.wikipedia.org/wiki/RAL_colour_standard), mainly used for varnish and powder coating.
 
 Example
 -------
@@ -30,6 +30,8 @@ ral_colors["RAL9010"]
 #>   RAL9010 
 #> "#F7F9EF"
 ```
+
+![](README-color%20table-1.png)
 
 Install
 -------

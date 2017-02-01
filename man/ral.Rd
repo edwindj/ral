@@ -3,7 +3,7 @@
 \docType{data}
 \name{ral}
 \alias{ral}
-\title{RAL colors with code, color codes, name and optional description.}
+\title{RAL colors with code.}
 \format{A data frame with 213 rows and 5 variables:
 \describe{
   \item{RAL}{RAL number, integer}

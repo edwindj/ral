@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 
 # ral
 
-Data package containing RAL classic colors.
+Data package containing [RAL classic colors](https://en.wikipedia.org/wiki/RAL_colour_standard), mainly used for varnish and powder coating.
 
 ## Example
 
@@ -31,6 +31,33 @@ e.g.
 ```{r}
 ral_colors["RAL9010"]
 ```
+
+```{r, color table, echo=FALSE}
+show_col <- function (colors, labels=colors, borders = NULL) 
+{
+    n <- length(colors)
+    ncol <- ceiling(sqrt(n))
+    nrow <- ceiling(n/ncol)
+    colors <- c(colors, rep(NA, nrow * ncol - length(colors)))
+    labels <- c(labels, rep("", nrow * ncol - length(labels)))
+    colors <- matrix(colors, ncol = ncol, byrow = TRUE)
+    labels <- matrix(labels, ncol=ncol, byrow=TRUE)
+    old <- par(pty = "s", mar = c(0, 0, 0, 0))
+    on.exit(par(old))
+    size <- max(dim(colors))
+    plot(c(0, size), c(0, -size), type = "n", xlab = "", ylab = "", 
+        axes = FALSE)
+    rect(col(colors) - 1, -row(colors) + 1, col(colors), -row(colors), 
+        col = colors, border = borders)
+    if (!missing(labels)) {
+      text(col(colors) - 0.5, -row(colors) + 0.5, labels, cex=0.6)
+    }
+}
+
+show_col(ral$color, ral$RAL, border=F)
+
+```
+
 
 ##  Install
 
