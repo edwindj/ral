@@ -17,4 +17,4 @@
 #'
 #' @format A vector with 213 colors
 #' @source \url{https://en.wikipedia.org/wiki/List_of_RAL_colors}
-"ral_colors"
+"ralcolors"

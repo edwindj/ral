@@ -12,4 +12,3 @@ Show color table of RAL colors
 \seealso{
 \code{\link{ral}}
 }
-

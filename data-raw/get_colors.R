@@ -26,7 +26,7 @@ ral <-
 
 
 #write.csv(ral, "./data/ral.csv", row.names = FALSE, na="")
-ral_colors <- setNames(ral$color, paste0("RAL", ral$RAL))
+ralcolors <- setNames(ral$color, paste0("RAL", ral$RAL))
 
-devtools::use_data(ral, ral_colors, pkg=".", overwrite = TRUE)
+devtools::use_data(ral, ralcolors, pkg=".", overwrite = TRUE)
 

@@ -26,7 +26,7 @@ head(ral)
 `ral_colors` is a named vector that can be used to quickly retrieve a color from the RAL number.
 
 ``` r
-ral_colors["RAL9010"]
+ralcolors["RAL9010"]
 #>   RAL9010 
 #> "#F7F9EF"
 ```

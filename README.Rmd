@@ -30,7 +30,7 @@ head(ral)
 `ral_colors` is a named vector that can be used to quickly retrieve a color from the RAL number.
 
 ```{r}
-ral_colors["RAL9010"]
+ralcolors["RAL9010"]
 ```
 
 Function `show_ralcolors` shows the color table with corresponding RAL number.

@@ -22,4 +22,3 @@ ral
 A dataset containing the RAL colors, color codes
 }
 \keyword{datasets}
-
