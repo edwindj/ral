@@ -23,7 +23,7 @@ head(ral)
 #> 6 1005 #C89F04  Honey yellow   Honiggelb
 ```
 
-`ral_colors` is a named vector that can be used to quickly retrieve a color from the RAL number.
+`ralcolors` is a named vector that can be used to quickly retrieve a color from the RAL number.
 
 ``` r
 ralcolors["RAL9010"]
