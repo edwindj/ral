@@ -6,11 +6,11 @@
 \title{RAL colors with code.}
 \format{A data frame with 213 rows and 5 variables:
 \describe{
-  \item{RAL}{RAL number, integer}
-  \item{color}{html color code}
-  \item{name}{english name}
-  \item{german_name}{original german name}
-  \item{description}{Optional description of color usage}
+\item{RAL}{RAL number, integer}
+\item{color}{html color code}
+\item{name}{english name}
+\item{german_name}{original german name}
+\item{description}{Optional description of color usage}
 }}
 \source{
 \url{https://en.wikipedia.org/wiki/List_of_RAL_colors}

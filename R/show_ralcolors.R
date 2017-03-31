@@ -2,7 +2,7 @@
 #' 
 #' Show color table of RAL colors
 #' @export
-#' @seealso \code{\link{ral}}
+#' @seealso [`ral`]
 #' @importFrom graphics par plot rect text
   show_ralcolors <- function () 
 {
