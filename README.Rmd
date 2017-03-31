@@ -34,7 +34,7 @@ ralcolors["RAL9010"]
 ```
 
 Function `show_ralcolors` shows the color table with corresponding RAL number.
-```{r, color table}
+```{r, colortable}
 show_ralcolors()
 ```
 

@@ -37,7 +37,7 @@ Function `show_ralcolors` shows the color table with corresponding RAL number.
 show_ralcolors()
 ```
 
-![](tools/README-color%20table-1.png)
+![](tools/README-colortable-1.png)
 
 Install
 -------
